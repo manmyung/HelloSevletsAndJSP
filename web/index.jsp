@@ -12,10 +12,12 @@
   </head>
   <body>
   <%
+    out.println("Hello JSP");
+
     int a = 3;
     int b = 4;
     int c = a + b;
-    out.println("c=" + c);
+    System.out.println("c=" + c);
   %>
   </body>
 </html>
