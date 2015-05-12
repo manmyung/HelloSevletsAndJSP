@@ -5,6 +5,7 @@
   Time: 오전 11:13
   To change this template use File | Settings | File Templates.
 --%>
+<%@ page import="com.sonaclo.foobar.Bar" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
   <head>
@@ -12,7 +13,10 @@
   </head>
   <body>
   <%
-    out.println("Hello JSP");
+    out.println("<h1>Hello JSP</h1>");
+
+    Bar bar = new Bar("0", "1");
+    out.println(bar.toString());
 
     int a = 3;
     int b = 4;

@@ -1,5 +1,7 @@
 package com.hello;
 
+import com.sonaclo.foobar.Bar;
+
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -17,5 +19,8 @@ public class HelloServlet extends HttpServlet {
         response.setContentType("text/html");
         PrintWriter out = response.getWriter();
         out.println("<h1>Hello, Servlet</h1>");
+
+        Bar bar = new Bar("2", "3");
+        out.println(bar.toString());
     }
 }
