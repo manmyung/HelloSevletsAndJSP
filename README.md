@@ -1,6 +1,6 @@
 # HelloSevletsAndJSP
 
-1. This is according to the video: Developing Java Servlets and JSP using IntelliJ (https://www.youtube.com/watch?v=licQZlIenAk).
+1. This follows "Developing Java Servlets and JSP using IntelliJ" (https://www.youtube.com/watch?v=licQZlIenAk).
 2. In addition to 1, Using a jar file in Sevlets and JSP for test.
 
 ## How to start
